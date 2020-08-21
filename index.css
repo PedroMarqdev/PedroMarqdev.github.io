@@ -27,6 +27,7 @@ h5 {
 
 }
 .imagem{
+    object-fit: cover;
     border-radius: 50%;
     font-size: 30px;
     box-shadow: 10px 5px 5px #2ec4b6;
@@ -41,7 +42,7 @@ h5 {
     float:right;
     font-size: 20px;
     position: relative;
-    top: 20px;
+    top: 10px;
     left: 90px;
     font-family: Helvetica;
     color: #2ec4b6;

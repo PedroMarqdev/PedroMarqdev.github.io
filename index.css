@@ -1,11 +1,10 @@
 
 html{
     background-color: #ffffff;
-    border: 2px#2ec4b6 ridge; padding: 10px;
-
+    background-image: url("zaXI9G.jpg");
 }
 #heading{
-
+    text-shadow: 5px 1px #2ec4b6;
     color: black;
     text-align: left;
     font-size: 50px;
@@ -15,10 +14,11 @@ html{
     margin-top: 400px;
 }
 h5 {
+    text-shadow: 1.2px 1px #2ec4b6;
     text-align: left;
     font-size: 15px;
     margin: 10px;
-    color: #2ec4b6;
+    color: black;
     font-family: Helvetica;
     margin-left: 150px;
     
@@ -35,21 +35,25 @@ h5 {
     position: relative;
     right: 150px;
     bottom: 175px;
-    border: 5px white solid;
+    border: 8px white solid;
 }
 #localizacao{
+    text-shadow: 2.5px 1px #2ec4b6;
     float:right;
-    font-size: 20px;
+    font-size: 30px;
     position: relative;
     top: 10px;
-    left: 150px;
+    left: 240px;
     font-family: Helvetica;
-    color: #2ec4b6;
+    color: black;
+    font-weight: bold;
 }
 #Habilidades{
-    color: #2ec4b6;
+    color: black;
     margin-top: 30px;
     font-family: Helvetica;
     position: relative;
-    left: 150px
+    left: 150px;
+    font-weight: bold;
+    text-shadow: 0.5px 1px #2ec4b6;
 }

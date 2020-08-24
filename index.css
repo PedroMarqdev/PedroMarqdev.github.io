@@ -1,59 +1,80 @@
-
-html{
-    background-color: #ffffff;
-    background-image: url("zaXI9G.jpg");
+body{
+    background-image: url("872.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 100px;
 }
-#heading{
-    text-shadow: 5px 1px #2ec4b6;
-    color: black;
+.introducao h1{ 
+    text-shadow: 5px 1px #ef233c;
+    color: #edf2f4;
     text-align: left;
     font-size: 50px;
     font-family: Helvetica;
     margin-bottom: 10px;
     margin-left: 150px;
     margin-top: 400px;
+    border: 10px 20px 10px solid black;
 }
-h5 {
-    text-shadow: 1.2px 1px #2ec4b6;
+.introducao h5, .frase{
     text-align: left;
     font-size: 15px;
     margin: 10px;
-    color: black;
+    color: #6e7a7e;
     font-family: Helvetica;
     margin-left: 150px;
-    
-
-    
-
 }
+
 .imagem{
     object-fit: cover;
     border-radius: 50%;
-    box-shadow: 10px 5px 5px #2ec4b6;
-    margin-right: 200px;
+    box-shadow: 10px 10px 30px #852132;
+    margin-right: auto;
     float: right;
     position: relative;
     right: 150px;
     bottom: 175px;
-    border: 8px white solid;
+    border: 8px solid #edf2f4;
 }
-#localizacao{
-    text-shadow: 2.5px 1px #2ec4b6;
+.localizacao{
+    text-shadow: 2.5px 1px #d90429;
     float:right;
     font-size: 30px;
     position: relative;
     top: 10px;
     left: 240px;
     font-family: Helvetica;
-    color: black;
+    color: #edf2f4;
     font-weight: bold;
 }
-#Habilidades{
-    color: black;
-    margin-top: 30px;
+.constru{
+    font-size: 30px;
+    color: #edf2f4;
+    text-shadow: 2.5px 1px #d90429;
     font-family: Helvetica;
+    text-align: center;
     position: relative;
-    left: 150px;
-    font-weight: bold;
-    text-shadow: 0.5px 1px #2ec4b6;
+    left: 300px;
+    top: 10px;
+    font-weight: bold;  
+}
+.habicon{
+    width: 10%;
+    position: relative;
+    left: 450px;
+    top: 25px;
+    opacity: 50%;
+}
+.creditos{
+  opacity: 20%;
+  position: relative;
+  top: 280px;
+}
+.redesociais img{
+    display: inline-block;
+    width: 3%;
+    position: relative;
+    top: 50px;
+    left:1325px;
+    opacity: 20%;
+
 }

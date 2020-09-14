@@ -1,0 +1,113 @@
+body {
+  background-color: rgb(253 , 251 , 251);
+}
+
+#cabecalho {
+  opacity: 60%;
+  border-top-right-radius: 30px;
+  background-color: rgb(59 , 206 , 172);
+  position: fixed;
+  top: 0%;
+}
+
+#titulo {
+  color: rgba(255 , 255 , 255 , 0.781);
+  text-align-last: center;
+  margin: 10px;
+  font-family: sans-serif;
+}
+
+.listas li {
+  list-style: none;
+}
+
+#cabecalho nav li {
+  display: inline-block;
+  color: rgba(255 , 255 , 255 , 0.781);
+  margin: 10px;
+  font-family: sans-serif;
+}
+
+#minha_foto {
+  float: left;
+  margin-top: 150px;
+  border: 5px white solid;
+  box-shadow: 50px 10px rgb(59 , 206 , 172);
+  object-fit: cover;
+  border-radius: 50%;
+  width: 22.5em;
+  height: 22.5em;
+}
+
+.redes {
+  width: 200px;
+}
+
+.redes img {
+  opacity: 50%;
+  width: 50px;
+  display: inline-block;
+}
+
+.lado-direito a , .listas a {
+  text-shadow: 3px 1px rgb(59 , 206 , 172);
+  font-weight: 800;
+  font-size: 40px;
+  font-family: sans-serif;
+  line-height: 2px;
+}
+
+.listas ul {
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.listas ol {
+  font-size: 20px;
+  display: inline-block;
+  font-family: sans-serif;
+}
+
+.listas {
+  text-align: center;
+  display: inline-block;
+  margin-left: 100px;
+  margin-top: 180px;
+}
+
+.lado-direito {
+  display: inline-block;
+  margin-left: 150px;
+  text-align: center;
+  position: relative;
+  bottom: 100px;
+  width: 800px;
+  height: 300px;
+  font-family: sans-serif;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  font-family: sans-serif;
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 150px;
+  text-align: center;
+  background-color: rgb(59 , 206 , 172);
+  border-top-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  padding: 20px;
+}
+
+#rodape {
+  display: inline-block;
+  font-family: sans-serif;
+  opacity: 30%;
+}
+
+th {
+  display: inline-block;
+  margin-left: 800px;
+}

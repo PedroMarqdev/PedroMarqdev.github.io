@@ -1,81 +1,81 @@
-body{
-    background-image: url("872.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: 100px;
+body {
+  background-image: url("872.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 100px;
 }
-.introducao h1{ 
-    text-shadow: 5px 1px #ef233c;
-    color: #edf2f4;
-    text-align: left;
-    font-size: 70px;
-    font-family: Helvetica;
-    margin-bottom: 10px;
-    margin-left: 150px;
-    margin-top: 400px;
-    border: 10px 20px 10px solid black;
+.introducao h1 {
+  text-shadow: 5px 1px #ef233c;
+  color: #edf2f4;
+  text-align: left;
+  font-size: 70px;
+  font-family: Helvetica;
+  margin-bottom: 10px;
+  margin-left: 150px;
+  margin-top: 400px;
+  border: 10px 20px 10px solid black;
 }
-.introducao h5, .frase{
-    text-align: left;
-    font-size: 15px;
-    margin: 10px;
-    color: #6e7a7e;
-    font-family: Helvetica;
-    margin-left: 150px;
+.introducao h5,
+.frase {
+  text-align: left;
+  font-size: 15px;
+  margin: 10px;
+  color: #6e7a7e;
+  font-family: Helvetica;
+  margin-left: 150px;
 }
 
-.imagem{
-    object-fit: cover;
-    border-radius: 50%;
-    box-shadow: 10px 10px 30px #852132;
-    margin-right: auto;
-    float: right;
-    position: relative;
-    right: 250px;
-    bottom: 175px;
-    border: 8px solid #edf2f4;
+.imagem {
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 10px 10px 30px #852132;
+  margin-right: auto;
+  float: right;
+  position: relative;
+  right: 250px;
+  bottom: 175px;
+  border: 8px solid #edf2f4;
 }
-.localizacao{
-    text-shadow: 2.5px 1px #d90429;
-    float:right;
-    font-size: 30px;
-    position: relative;
-    top: 10px;
-    left: 150px;
-    font-family: Helvetica;
-    color: #edf2f4;
-    font-weight: bold;
+.localizacao {
+  text-shadow: 2.5px 1px #d90429;
+  float: right;
+  font-size: 30px;
+  position: relative;
+  top: 10px;
+  left: 150px;
+  font-family: Helvetica;
+  color: #edf2f4;
+  font-weight: bold;
 }
-.constru{
-    font-size: 30px;
-    color: #edf2f4;
-    text-shadow: 2.5px 1px #d90429;
-    font-family: Helvetica;
-    text-align: center;
-    position: relative;
-    left: 300px;
-    top: 10px;
-    font-weight: bold;  
+.constru {
+  font-size: 30px;
+  color: #edf2f4;
+  text-shadow: 2.5px 1px #d90429;
+  font-family: Helvetica;
+  text-align: center;
+  position: relative;
+  left: 300px;
+  top: 10px;
+  font-weight: bold;
 }
-.habicon{
-    width: 10%;
-    position: relative;
-    left: 450px;
-    top: 25px;
-    opacity: 50%;
+.habicon {
+  width: 10%;
+  position: relative;
+  left: 450px;
+  top: 25px;
+  opacity: 50%;
 }
-.creditos{
+.creditos {
   opacity: 20%;
   position: relative;
   top: 280px;
 }
-.redesociais img{
-    margin: 10px 10px;
-    display: inline-block;
-    width: 3%;
-    position: relative;
-    top: 50px;
-    left: 1375px;
-    opacity: 20%;
-
+.redesociais img {
+  margin: 10px 10px;
+  display: inline-block;
+  width: 3%;
+  position: relative;
+  top: 50px;
+  left: 1375px;
+  opacity: 20%;
 }

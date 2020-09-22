@@ -1,0 +1,38 @@
+.color , .selected {
+  border: 1px solid black;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+}
+
+.pixelBoard {
+  height: 230px;
+  line-height: 0;
+  width: 210px;
+
+}
+
+.clear {
+  height: 25px;
+  width: 80px;
+}
+
+.genBoard {
+  background-color: rgb(234, 53, 70);
+  border: 1px solid black;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  color: white;
+  height: 50px;
+  width: 50px;
+}
+
+.boardSize {
+  background-color: white;
+  border: 1px solid black;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  color: rgb(234, 53, 70);
+  height: 20px;
+  text-align: center;
+}

@@ -1,24 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <header><h1>Minha Lista de Tarefas</h1></header>
-    <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
-    <input type="text" id="texto-tarefa">
-    <button id="criar-tarefa">Criar tarefa</button>
-    <ol id="lista-tarefas">
+
+    <header>
+        <h1 class='hero-title'>Minha Lista de Tarefas <i class="fas fa-thumbtack"></i></h1>
+    </header>
     </ol>
-    <button id="apaga-tudo">Apagar tudo</button>
-    <button id="remover-finalizados">Remover finalizados</button>
-    <button id="remover-selecionado">Remover selecionado</button>
-    <button id="mover-cima">⬆</button>
-    <button id="mover-baixo">⬇</button>
-    <button id="salvar-tarefas">Salvar tarefas</button>
+    <article class='to-do-list'>
+        <section class='to-do-list-buttons'>
+            <button class='erase-button' id="apaga-tudo">Apagar tudo</button>
+            <button class='remove-button' id="remover-finalizados">Remover finalizados</button>
+            <button class='select-button' id="remover-selecionado">Remover selecionado</button>
+            <button class='save-button' id="salvar-tarefas">Salvar tarefas</button>
+        </section>
+        <section class='to-do-list-content'>
+            <div class='create-task'>
+                <p id="funcionamento">Clique duas vezes em um item para <br>marcá-lo como completo</p>
+                <input type="text" id="texto-tarefa">
+                <button class='create-button' id="criar-tarefa">Criar tarefa</button>
+            </div>
+            <ol id="lista-tarefas">
+                </ol>
+                <div class='up-down-buttons'>
+                    <button class='up-button' id="mover-cima"><i class="fas fa-arrow-circle-up"></i></button>
+                    <button class='down-button' id="mover-baixo"><i class="fas fa-arrow-circle-down"></i></button>
+                </div>
+        </section>
+    </article>
+
     <script src="script.js"></script>
 </body>
+
 </html>

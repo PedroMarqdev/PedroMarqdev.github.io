@@ -10,19 +10,19 @@ const saveTask = document.querySelector('#salvar-tarefas');
 
 function removeColor() {
   const item = document.querySelectorAll('.task');
+  const backgroundcontent = document.querySelector('.to-do-list-content')
   item.forEach((key) => {
     key.classList.remove('selected');
-    key.style.backgroundColor = 'white';
+    key.style.backgroundColor = backgroundcontent.style.backgroundColor;
   });
 }
-
 function addColor() {
   const item = document.querySelectorAll('.empty');
   item.forEach((key) => {
     key.addEventListener('click', function () {
       removeColor();
       key.classList.add('selected');
-      key.style.backgroundColor = 'rgb(128 , 128 , 128)';
+      
     });
   });
 }
@@ -32,12 +32,12 @@ function completed() {
   item.forEach((key) => {
     key.addEventListener('dblclick', function addEvent() {
       key.classList.remove('empty');
-      key.classList.add('completed');
-      if (key.style.textDecoration === 'line-through solid black') {
+      if (key.classList.contains('completed')) {
+        document.querySelector('.completed i').remove();
         key.classList.remove('completed');
-        key.style.textDecoration = 'none';
       } else {
-        key.style.textDecoration = 'line-through solid black';
+        key.classList.add('completed');
+        key.innerHTML += '<i class="fas fa-check"></i>'
       }
     });
   });

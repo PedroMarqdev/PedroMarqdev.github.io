@@ -7,13 +7,12 @@ const removerSelect = document.querySelector('#remover-selecionado');
 const movCima = document.querySelector('#mover-cima');
 const movBaixo = document.querySelector('#mover-baixo');
 const saveTask = document.querySelector('#salvar-tarefas');
+const backgroundcontent = document.querySelector('.to-do-list-content')
 
 function removeColor() {
   const item = document.querySelectorAll('.task');
-  const backgroundcontent = document.querySelector('.to-do-list-content')
   item.forEach((key) => {
     key.classList.remove('selected');
-    key.style.backgroundColor = backgroundcontent.style.backgroundColor;
   });
 }
 function addColor() {
@@ -162,3 +161,4 @@ movBaixo.addEventListener('click', function () {
 saveTask.addEventListener('click', function () {
   getToStorage();
 });
+

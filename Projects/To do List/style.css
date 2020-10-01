@@ -231,7 +231,11 @@ ol:hover {
 }
 
 .completed i{
-  color: rgb(18, 19, 18);
+  color: rgb(53, 27, 47);
+}
+
+.selected .completed i{
+  color: rgb(228, 214, 197);
 }
 
 .task {
@@ -243,3 +247,7 @@ ol:hover {
   transform: scale(1.1);
   box-shadow: 8px 4px 5px rgba(0, 0, 0, 0.63);
 }
+
+li.task.selected.completed i {
+  color: rgb(228, 214, 197);
+  }

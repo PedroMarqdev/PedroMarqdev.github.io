@@ -31,8 +31,8 @@ function completed() {
   item.forEach((key) => {
     key.addEventListener('dblclick', function addEvent() {
       key.classList.remove('empty');
-      if (key.classList.contains('completed')) {
-        document.querySelector('.completed i').remove();
+      if (key.classList.contains('completed')){
+        key.querySelector('i').remove();
         key.classList.remove('completed');
       } else {
         key.classList.add('completed');
@@ -78,26 +78,40 @@ function updateList() {
     elementLi.style.backgroundColor = storageColor;
     elementLi.style.textDecoration = `${store[store.length - 1]}`;
     elementLi.classList.add('empty');
+    if (elementLi.classList.contains('completed')) {
+    elementLi.innerHTML += '<i class="fas fa-check"></i>'
+    }
     list.appendChild(elementLi);
     addColor();
     completed();
     emptyCheck();
+
   }
 }
 
 updateList();
-
-addTarefa.addEventListener('click', function () {
+function addTask() {
   const elementLi = document.createElement('li');
-  elementLi.innerText = inputTarefa.value;
-  elementLi.className = 'task';
-  elementLi.classList.add('empty');
-  list.appendChild(elementLi);
-  addColor();
-  completed();
-  inputTarefa.value = '';
-  emptyCheck();
-});
+  if(inputTarefa.value.trim()){
+    elementLi.innerText = inputTarefa.value;
+    elementLi.className = 'task';
+    elementLi.classList.add('empty');
+    list.appendChild(elementLi);
+    addColor();
+    completed();
+    inputTarefa.value = '';
+    emptyCheck();
+  }
+}
+addTarefa.addEventListener('click', addTask)
+
+inputTarefa.addEventListener("keypress", function(e){
+  debugger;
+  var key = e.which || e.keyCode;
+  if (key == 13) {
+  addTask();
+  }
+  });
 
 apagar.addEventListener('click', function () {
   while (list.firstElementChild) {
@@ -161,4 +175,3 @@ movBaixo.addEventListener('click', function () {
 saveTask.addEventListener('click', function () {
   getToStorage();
 });
-
